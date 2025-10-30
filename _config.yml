@@ -16,3 +16,21 @@ url: "https://tpusawvu.org" # your final domain
 # Minimal Mistakes Theme Settings
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # You can change this later (e.g., "dark", "air", "contrast")
+
+# Site Author/Owner
+author:
+  name: "Turning Point USA at West Virginia University"
+  avatar: "/tpusawvu-logo.png" # Path to your logo
+
+# Site Navigation
+masthead:
+  type: "centered" # Centers your navigation
+  nav:
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about/"
+    - title: "Events"
+      url: "/events/"
+    - title: "Donate"
+      url: "/donate/"
