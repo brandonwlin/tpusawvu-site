@@ -31,7 +31,7 @@ plugins:
 
 author:
   name: "Turning Point USA at West Virginia University"
-  avatar: "/West Virginia University.png" # Make sure your logo file is in the root folder!
+  avatar: "/tpusawvu-logo.png" # Make sure your logo file is in the root folder!
 
 # -----------------------------------------------------------------------------
 # NAVIGATION MENU
