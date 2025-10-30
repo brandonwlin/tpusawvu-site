@@ -1,32 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole site
-# --------------------------------------------------------------------------------
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# -----------------------------------------------------------------------------
+# SITE SETTINGS
+# -----------------------------------------------------------------------------
 
 title: Turning Point USA at West Virginia University
-description: >- # this means to ignore newlines until "baseurl:"
-  The official website for the Turning Point USA chapter at WestVirginia University.
+description: >- 
+  The official website for the Turning Point USA chapter at West
+  Virginia University.
 baseurl: "/tpusawvu-site" # This MUST match your repository name
 url: "" # We will set this when we add the custom domain later
 
-# Minimal Mistakes Theme Settings
+# -----------------------------------------------------------------------------
+# THEME SETTINGS
+# -----------------------------------------------------------------------------
+
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # You can change this later (e.g., "dark", "air", "contrast")
+minimal_mistakes_skin: "default" 
+
+# -----------------------------------------------------------------------------
+# PLUGINS
+# -----------------------------------------------------------------------------
 
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# Site Author/Owner
+# -----------------------------------------------------------------------------
+# SITE AUTHOR & LOGO
+# This controls the logo and name at the top.
+# -----------------------------------------------------------------------------
+
 author:
   name: "Turning Point USA at West Virginia University"
-  avatar: "/tpusawvu-logo.png" # Path to your logo
+  avatar: "/West Virginia University.png" # Make sure your logo file is in the root folder!
 
-# Site Navigation
+# -----------------------------------------------------------------------------
+# NAVIGATION MENU
+# This builds the menu links.
+# -----------------------------------------------------------------------------
+
 masthead:
   type: "centered" # Centers your navigation
   nav:
