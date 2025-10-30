@@ -1,0 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site
+# --------------------------------------------------------------------------------
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+
+title: Turning Point USA at West Virginia University
+description: >- # this means to ignore newlines until "baseurl:"
+  The official website for the Turning Point USA chapter at WestVirginia University.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tpusawvu.org" # your final domain
+
+# Minimal Mistakes Theme Settings
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # You can change this later (e.g., "dark", "air", "contrast")
