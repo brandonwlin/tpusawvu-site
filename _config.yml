@@ -17,6 +17,10 @@ url: "https://tpusawvu.org" # your final domain
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # You can change this later (e.g., "dark", "air", "contrast")
 
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
 # Site Author/Owner
 author:
   name: "Turning Point USA at West Virginia University"
